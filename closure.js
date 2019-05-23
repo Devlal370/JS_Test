@@ -12,3 +12,13 @@ var welcome = function(name){
 }
 
 console.log(welcome('Boy'));
+
+
+
+var muliply = function (a){
+	var mux = function (b){
+		return a * b;
+	}
+	return mux;
+}
+console.log(muliply(200)(10));
